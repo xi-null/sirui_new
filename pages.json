@@ -1,0 +1,291 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	
+	{
+		"path": "pages/index/index",
+			
+		"style": {
+			"navigationBarTitleText": "首页",
+			"enablePullDownRefresh": true
+			
+		}
+	
+	},{
+		"path": "pages/vedio/vedio",
+		"style": {
+			"navigationBarTitleText": "实时赛事",
+			"enablePullDownRefresh": true
+		}
+	
+	},
+	
+	 {
+			"path": "pages/now/now",
+			"style": {
+				"navigationBarTitleText": "服务",
+				"enablePullDownRefresh": false
+
+			}
+
+		}, 
+		{
+					"path": "pages/preVideo/preVideo",
+					"style": {
+						"navigationBarTitleText": "赛事回放",
+						"enablePullDownRefresh": false
+		
+					}
+		
+				},
+		{
+			"path": "pages/person/person",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false
+				
+				
+			}
+
+		},  {
+			"path": "pages/like/like",
+			"style": {
+				"navigationBarTitleText": "收藏列表",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/history/history",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				//开启下拉刷新
+				"enablePullDownRefresh": true
+			}
+		}, 
+	
+		{
+			"path": "pages/webView/webView",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		
+		}
+		
+	    ,{
+            "path" : "pages/pay/pay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/vedioDetail/vedioDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/vedioPlayer/vedioPlayer",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/indexPlayer/indexPlayer",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/control/control",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/cutDetail/cutDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/cutShare/cutShare",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/cutPlayer/cutPlayer",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/downLoad/downLoad",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/smallVedio/smallVedio",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/payForExtend/payForExtend",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/cutVideo/cutVideo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/refund/refund",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/afterCutShare/afterCutShare",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/smallPlayer/smallPlayer",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/feedBack/feedBack",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/aboutUs/aboutUs",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"permission": {
+		"scope.userLocation": {
+			"desc": "你的位置信息将用于小程序位置接口的效果展示" // 高速公路行驶持续后台定位
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+	"navigationBarBackgroundColor":"#FFF3F2",
+		"backgroundColor": "#FFF3F2"
+
+	},
+	"tabBar": {
+		"color": "#D9D9D9",
+		"selectedColor": "#FF7875",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"iconWidth": "16px",
+		"height": "50rpx",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/index_select (2).png",
+
+				"selectedIconPath": "static/index.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/preVideo/preVideo",
+				"iconPath": "static/preVideo.png",
+				"selectedIconPath": "static/preVideo_select.png",
+				"text": "赛事回放"
+			},
+			// {
+			// 	"pagePath": "pages/now/now",
+			// 	"iconPath": "static/now.png",
+			// 	"selectedIconPath": "static/now_select.png",
+			// 	"text": ""
+			// },
+			{
+				"pagePath": "pages/now/now",
+				"iconPath": "static/order_page.png",
+				"selectedIconPath": "static/order_page.png",
+				"text": ""
+			},
+			
+			{
+				"pagePath": "pages/vedio/vedio",
+				"iconPath": "static/video.png",
+				"selectedIconPath": "static/video_select.png",
+				"text": "实时赛事"
+			},
+			{
+				"pagePath": "pages/person/person",
+				"iconPath": "static/person.png",
+				"selectedIconPath": "static/person_select.png",
+				"text": "我的"
+			}
+		]
+	},
+
+
+	"uniIdRouter": {}
+}

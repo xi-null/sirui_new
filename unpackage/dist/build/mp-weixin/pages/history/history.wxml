@@ -1,0 +1,1 @@
+<view class="main data-v-ca85974c"><web-view class="data-v-ca85974c" src="{{a}}" bindmessage="{{b}}" bindonPostMessage="{{c}}"></web-view></view>

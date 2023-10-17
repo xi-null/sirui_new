@@ -1,0 +1,72 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/vedio/vedio",
+    "pages/now/now",
+    "pages/person/person",
+    "pages/like/like",
+    "pages/history/history",
+    "pages/webView/webView",
+    "pages/pay/pay",
+    "pages/vedioDetail/vedioDetail",
+    "pages/vedioPlayer/vedioPlayer",
+    "pages/indexPlayer/indexPlayer",
+    "pages/control/control",
+    "pages/cutDetail/cutDetail",
+    "pages/cutShare/cutShare",
+    "pages/cutPlayer/cutPlayer",
+    "pages/downLoad/downLoad",
+    "pages/smallVedio/smallVedio",
+    "pages/payForExtend/payForExtend",
+    "pages/cutVideo/cutVideo",
+    "pages/refund/refund",
+    "pages/afterCutShare/afterCutShare",
+    "pages/smallPlayer/smallPlayer",
+    "pages/feedBack/feedBack",
+    "pages/aboutUs/aboutUs"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#181829",
+    "backgroundColor": "#181829FF"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#fff",
+    "borderStyle": "black",
+    "backgroundColor": "#2D2C3E",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/index_select (2).png",
+        "selectedIconPath": "static/index.png",
+        "text": "赛事回放"
+      },
+      {
+        "pagePath": "pages/vedio/vedio",
+        "iconPath": "static/video.png",
+        "selectedIconPath": "static/video_select.png",
+        "text": "实时赛事"
+      },
+      {
+        "pagePath": "pages/now/now",
+        "iconPath": "static/now.png",
+        "selectedIconPath": "static/now_select.png",
+        "text": "服务"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "iconPath": "static/person.png",
+        "selectedIconPath": "static/person_select.png",
+        "text": "用户"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取定位"
+    }
+  },
+  "usingComponents": {}
+}

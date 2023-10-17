@@ -1,0 +1,1 @@
+{"version":3,"file":"swipeActionItem.js","sources":["../../../../../../../../../uni_modules/uview-plus/libs/config/props/swipeActionItem.js"],"sourcesContent":null,"names":["swipeActionItem","show","name","disabled","threshold","autoClose","options","duration"],"mappings":"qCASe,CAEXA,gBAAiB,CACbC,MAAM,EACNC,KAAM,GACNC,UAAU,EACVC,UAAW,GACXC,WAAW,EACXC,QAAS,GACTC,SAAU"}

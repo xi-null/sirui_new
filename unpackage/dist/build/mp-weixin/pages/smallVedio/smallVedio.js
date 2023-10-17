@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),r={data:()=>({src:""}),onLoad(){this.src=`https://h5-1259813764.cos.ap-nanjing.myqcloud.com/smallVedio_1.html?userId=${e.index.getStorageSync("user").id}#wechat_redirect`},methods:{}};const t=e._export_sfc(r,[["render",function(e,r,t,c,s,o){return{a:s.src}}]]);wx.createPage(t);

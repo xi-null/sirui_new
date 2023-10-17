@@ -1,0 +1,1 @@
+<view class="wra"><u-popup wx:if="{{b}}" u-s="{{['d']}}" u-i="2210350d-0" bind:__l="__l" u-p="{{b}}"><view class="progress"></view><u-line-progress wx:if="{{a}}" u-i="2210350d-1,2210350d-0" bind:__l="__l" u-p="{{a}}"></u-line-progress></u-popup></view>

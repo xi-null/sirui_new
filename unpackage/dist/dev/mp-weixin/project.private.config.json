@@ -1,0 +1,33 @@
+{
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "projectname": "思锐AI",
+  "setting": {
+    "compileHotReLoad": true,
+    "urlCheck": false
+  },
+  "libVersion": "2.30.2",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "二维码参数",
+          "pathName": "pages/now/now",
+          "query": "scene=4119",
+          "launchMode": "default",
+          "scene": null,
+          "partialCompile": {
+            "enabled": true,
+            "pages": []
+          }
+        },
+        {
+          "name": "直播二维码",
+          "pathName": "pages/vedio/vedio",
+          "query": "scene=1672814477715750914",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

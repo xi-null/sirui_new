@@ -1,0 +1,1 @@
+{"version":3,"file":"swipterIndicator.js","sources":["../../../../../../../../../uni_modules/uview-plus/libs/config/props/swipterIndicator.js"],"sourcesContent":null,"names":["swiperIndicator","length","current","indicatorActiveColor","indicatorInactiveColor","indicatorMode"],"mappings":"sCASe,CAEXA,gBAAiB,CACbC,OAAQ,EACRC,QAAS,EACTC,qBAAsB,GACtBC,uBAAwB,GAC9BC,cAAe"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"buildFullPath.js","sources":["../../../../../../../../../uni_modules/uview-plus/libs/luch-request/core/buildFullPath.js"],"sourcesContent":null,"names":["baseURL","requestedURL","isAbsoluteURL","combineURLs"],"mappings":"yHAce,SAAuBA,EAASC,GAC3C,OAAID,IAAYE,gBAAcD,GACnBE,EAAWA,YAACH,EAASC,GAEzBA,CACX"}

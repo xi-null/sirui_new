@@ -1,0 +1,1 @@
+{"version":3,"file":"formItem.js","sources":["../../../../../../../../../uni_modules/uview-plus/libs/config/props/formItem.js"],"sourcesContent":null,"names":["formItem","label","prop","borderBottom","labelWidth","rightIcon","leftIcon","required","leftIconStyle"],"mappings":"8BASe,CAEXA,SAAU,CACNC,MAAO,GACPC,KAAM,GACNC,aAAc,GACdC,WAAY,GACZC,UAAW,GACXC,SAAU,GACVC,UAAU,EACVC,cAAe"}

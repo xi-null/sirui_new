@@ -1,0 +1,1 @@
+{"version":3,"file":"notify.js","sources":["../../../../../../../../../uni_modules/uview-plus/libs/config/props/notify.js"],"sourcesContent":null,"names":["notify","top","type","color","bgColor","message","duration","fontSize","safeAreaInsetTop"],"mappings":"4BASe,CAEXA,OAAQ,CACJC,IAAK,EACLC,KAAM,UACNC,MAAO,UACPC,QAAS,GACTC,QAAS,GACTC,SAAU,IACVC,SAAU,GACVC,kBAAkB"}

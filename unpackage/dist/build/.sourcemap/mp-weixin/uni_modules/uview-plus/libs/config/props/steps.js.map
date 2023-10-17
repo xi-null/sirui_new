@@ -1,0 +1,1 @@
+{"version":3,"file":"steps.js","sources":["../../../../../../../../../uni_modules/uview-plus/libs/config/props/steps.js"],"sourcesContent":null,"names":["steps","direction","current","activeColor","inactiveColor","activeIcon","inactiveIcon","dot"],"mappings":"2BASe,CAEXA,MAAO,CACHC,UAAW,MACXC,QAAS,EACTC,YAAa,UACbC,cAAe,UACfC,WAAY,GACZC,aAAc,GACdC,KAAK"}

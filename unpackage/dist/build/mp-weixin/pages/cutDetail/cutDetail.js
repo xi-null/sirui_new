@@ -1,0 +1,1 @@
+"use strict";const o={data:()=>({src:""}),onLoad(o){console.log(o),this.src=`https://h5-1259813764.cos.ap-nanjing.myqcloud.com/cutDetail_2.html?orderId=${o.orderId}&userId=${o.userId}`,console.log(this.src)},methods:{}};const r=require("../../common/vendor.js")._export_sfc(o,[["render",function(o,r,e,s,c,t){return{a:c.src}}]]);wx.createPage(r);

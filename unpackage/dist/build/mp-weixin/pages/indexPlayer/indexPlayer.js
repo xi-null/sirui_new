@@ -1,0 +1,1 @@
+"use strict";const e={data:()=>({src:""}),onLoad(e){this.src=`https://h5-1259813764.cos.ap-nanjing.myqcloud.com/index_detail_1.html?list=${e.list}`},onShareAppMessage:e=>({title:"思锐AI",path:"/pages/vedio/vedio"}),methods:{}};const t=require("../../common/vendor.js")._export_sfc(e,[["render",function(e,t,s,o,n,r){return{a:n.src}}]]);e.__runtimeHooks=2,wx.createPage(t);

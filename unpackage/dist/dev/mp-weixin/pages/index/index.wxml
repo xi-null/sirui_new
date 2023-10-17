@@ -1,0 +1,1 @@
+<view class="content data-v-1cf27b2a"><web-view class="data-v-1cf27b2a" src="{{a}}" bindmessage="{{b}}" bindonPostMessage="{{c}}" fullscreen="{{false}}" style="width:200px;height:500px"></web-view></view>

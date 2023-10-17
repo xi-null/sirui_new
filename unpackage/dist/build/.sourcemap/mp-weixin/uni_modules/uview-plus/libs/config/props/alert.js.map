@@ -1,0 +1,1 @@
+{"version":3,"file":"alert.js","sources":["../../../../../../../../../uni_modules/uview-plus/libs/config/props/alert.js"],"sourcesContent":null,"names":["alert","title","type","description","closable","showIcon","effect","center","fontSize"],"mappings":"2BASe,CAEXA,MAAO,CACHC,MAAO,GACPC,KAAM,UACNC,YAAa,GACbC,UAAU,EACVC,UAAU,EACVC,OAAQ,QACRC,QAAQ,EACRC,SAAU"}

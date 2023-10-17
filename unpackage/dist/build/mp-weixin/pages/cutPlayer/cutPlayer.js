@@ -1,0 +1,1 @@
+"use strict";const s={data:()=>({src:""}),onLoad(s){this.src=`https://h5-1259813764.cos.ap-nanjing.myqcloud.com/cutPlayer_2.html?list=${s.list}`,console.log(this.src)},methods:{}};const t=require("../../common/vendor.js")._export_sfc(s,[["render",function(s,t,c,o,r,e){return{a:r.src}}]]);wx.createPage(t);

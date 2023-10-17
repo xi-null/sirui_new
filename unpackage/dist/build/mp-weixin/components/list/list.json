@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "player": "../player/player",
+    "bottom": "../bottom/bottom",
+    "u-list-item": "../../uni_modules/uview-plus/components/u-list-item/u-list-item",
+    "u-list": "../../uni_modules/uview-plus/components/u-list/u-list"
+  }
+}
