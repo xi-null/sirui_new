@@ -80,5 +80,5 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     b: common_vendor.o($options.more)
   };
 }
-const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-18578b00"], ["__file", "D:/sirui - new/components/list/list.vue"]]);
+const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-18578b00"], ["__file", "D:/sirui_new_plus/sirui_new/components/list/list.vue"]]);
 wx.createComponent(Component);

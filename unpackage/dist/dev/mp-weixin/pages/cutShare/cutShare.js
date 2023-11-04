@@ -62,6 +62,6 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     f: common_vendor.o((...args) => $options.toDetail && $options.toDetail(...args))
   };
 }
-const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-9d59a19e"], ["__file", "D:/sirui - new/pages/cutShare/cutShare.vue"]]);
+const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-9d59a19e"], ["__file", "D:/sirui_new_plus/sirui_new/pages/cutShare/cutShare.vue"]]);
 _sfc_main.__runtimeHooks = 6;
 wx.createPage(MiniProgramPage);

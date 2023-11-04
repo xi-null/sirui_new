@@ -155,5 +155,5 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     e: common_vendor.s(_ctx.$u.addStyle(_ctx.customStyle))
   });
 }
-const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-eeee7090"], ["__file", "D:/sirui - new/uni_modules/uview-plus/components/u-line-progress/u-line-progress.vue"]]);
+const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-eeee7090"], ["__file", "D:/sirui_new_plus/sirui_new/uni_modules/uview-plus/components/u-line-progress/u-line-progress.vue"]]);
 wx.createComponent(Component);

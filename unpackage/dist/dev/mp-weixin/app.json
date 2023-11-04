@@ -1,9 +1,9 @@
 {
   "pages": [
+    "pages/preVideo/preVideo",
     "pages/index/index",
     "pages/vedio/vedio",
     "pages/now/now",
-    "pages/preVideo/preVideo",
     "pages/person/person",
     "pages/like/like",
     "pages/history/history",
@@ -39,12 +39,6 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath": "pages/index/index",
-        "iconPath": "static/index_select (2).png",
-        "selectedIconPath": "static/index.png",
-        "text": "首页"
-      },
-      {
         "pagePath": "pages/preVideo/preVideo",
         "iconPath": "static/preVideo.png",
         "selectedIconPath": "static/preVideo_select.png",
@@ -53,8 +47,8 @@
       {
         "pagePath": "pages/now/now",
         "iconPath": "static/order_page.png",
-        "selectedIconPath": "static/order_page.png",
-        "text": ""
+        "selectedIconPath": "static/order_page_select.png",
+        "text": "服务"
       },
       {
         "pagePath": "pages/vedio/vedio",
@@ -75,6 +69,5 @@
       "desc": "获取定位"
     }
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "usingComponents": {}
 }

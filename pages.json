@@ -1,6 +1,14 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	{
+				"path": "pages/preVideo/preVideo",
+				"style": {
+					"navigationBarTitleText": "赛事回放",
+					"enablePullDownRefresh": false
 	
+				}
+	
+			},
 	{
 		"path": "pages/index/index",
 			
@@ -28,15 +36,6 @@
 			}
 
 		}, 
-		{
-					"path": "pages/preVideo/preVideo",
-					"style": {
-						"navigationBarTitleText": "赛事回放",
-						"enablePullDownRefresh": false
-		
-					}
-		
-				},
 		{
 			"path": "pages/person/person",
 			"style": {
@@ -245,13 +244,7 @@
 		"backgroundColor": "#ffffff",
 		"iconWidth": "16px",
 		"height": "50rpx",
-		"list": [{
-				"pagePath": "pages/index/index",
-				"iconPath": "static/index_select (2).png",
-
-				"selectedIconPath": "static/index.png",
-				"text": "首页"
-			},
+		"list": [
 			{
 				"pagePath": "pages/preVideo/preVideo",
 				"iconPath": "static/preVideo.png",
@@ -267,8 +260,8 @@
 			{
 				"pagePath": "pages/now/now",
 				"iconPath": "static/order_page.png",
-				"selectedIconPath": "static/order_page.png",
-				"text": ""
+				"selectedIconPath": "static/order_page_select.png",
+				"text": "服务"
 			},
 			
 			{

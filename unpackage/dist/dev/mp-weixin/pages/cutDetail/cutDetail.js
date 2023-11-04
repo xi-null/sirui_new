@@ -18,5 +18,5 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     a: $data.src
   };
 }
-const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "D:/sirui - new/pages/cutDetail/cutDetail.vue"]]);
+const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "D:/sirui_new_plus/sirui_new/pages/cutDetail/cutDetail.vue"]]);
 wx.createPage(MiniProgramPage);

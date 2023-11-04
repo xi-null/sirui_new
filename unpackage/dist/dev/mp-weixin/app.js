@@ -119,10 +119,10 @@ require("./uni_modules/uview-plus/libs/config/props/upload.js");
 require("./uni_modules/uview-plus/libs/config/zIndex.js");
 require("./uni_modules/uview-plus/libs/function/platform.js");
 if (!Math) {
+  "./pages/preVideo/preVideo.js";
   "./pages/index/index.js";
   "./pages/vedio/vedio.js";
   "./pages/now/now.js";
-  "./pages/preVideo/preVideo.js";
   "./pages/person/person.js";
   "./pages/like/like.js";
   "./pages/history/history.js";
@@ -166,7 +166,7 @@ const _sfc_main = {
     console.log("App Hide");
   }
 };
-const App = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__file", "D:/sirui - new/App.vue"]]);
+const App = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__file", "D:/sirui_new_plus/sirui_new/App.vue"]]);
 function createApp() {
   const app = common_vendor.createSSRApp(App);
   app.use(uni_modules_uviewPlus_index.uviewPlus);
