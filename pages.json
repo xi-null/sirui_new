@@ -1,7 +1,7 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 	{
-				"path": "pages/preVideo/preVideo",
+				"path": "pages/index/index",
 				"style": {
 					"navigationBarTitleText": "赛事回放",
 					"enablePullDownRefresh": false
@@ -9,16 +9,17 @@
 				}
 	
 			},
-	{
-		"path": "pages/index/index",
+	// {
+	// 	"path": "pages/index/index",
 			
-		"style": {
-			"navigationBarTitleText": "首页",
-			"enablePullDownRefresh": true
+	// 	"style": {
+	// 		"navigationBarTitleText": "首页",
+	// 		"enablePullDownRefresh": true
 			
-		}
+	// 	}
 	
-	},{
+	// },
+	{
 		"path": "pages/vedio/vedio",
 		"style": {
 			"navigationBarTitleText": "实时赛事",
@@ -246,7 +247,7 @@
 		"height": "50rpx",
 		"list": [
 			{
-				"pagePath": "pages/preVideo/preVideo",
+				"pagePath": "pages/index/index",
 				"iconPath": "static/preVideo.png",
 				"selectedIconPath": "static/preVideo_select.png",
 				"text": "赛事回放"

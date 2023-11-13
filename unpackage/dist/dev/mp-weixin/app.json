@@ -1,6 +1,5 @@
 {
   "pages": [
-    "pages/preVideo/preVideo",
     "pages/index/index",
     "pages/vedio/vedio",
     "pages/now/now",
@@ -39,7 +38,7 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath": "pages/preVideo/preVideo",
+        "pagePath": "pages/index/index",
         "iconPath": "static/preVideo.png",
         "selectedIconPath": "static/preVideo_select.png",
         "text": "赛事回放"
@@ -69,5 +68,6 @@
       "desc": "获取定位"
     }
   },
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
 }

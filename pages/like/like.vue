@@ -14,7 +14,7 @@
 			return {
 				orderList:[],
 				show:false,
-				src:`https://h5-1259813764.cos.ap-nanjing.myqcloud.com/like_2.html?userId=${uni.getStorageSync('user').id}`,
+				src:`https://h5-1259813764.cos.ap-nanjing.myqcloud.com/like_new1.html?userId=${uni.getStorageSync('user').id}`,
 				list:[
 					{
 						name:'取消收藏',
@@ -36,7 +36,7 @@
 				 projectId:uni.getStorageSync('project').id,
 				 userId:uni.getStorageSync('user').id
 			 }
-			 this.src = `https://h5-1259813764.cos.ap-nanjing.myqcloud.com/like_3.html?query=${encodeURIComponent(JSON.stringify(obj))}`
+			 this.src = `https://h5-1259813764.cos.ap-nanjing.myqcloud.com/like_new1.html?query=${encodeURIComponent(JSON.stringify(obj))}`
 			 console.log(this.src,11)
 	
 			 

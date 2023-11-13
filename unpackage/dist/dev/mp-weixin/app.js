@@ -119,7 +119,6 @@ require("./uni_modules/uview-plus/libs/config/props/upload.js");
 require("./uni_modules/uview-plus/libs/config/zIndex.js");
 require("./uni_modules/uview-plus/libs/function/platform.js");
 if (!Math) {
-  "./pages/preVideo/preVideo.js";
   "./pages/index/index.js";
   "./pages/vedio/vedio.js";
   "./pages/now/now.js";
