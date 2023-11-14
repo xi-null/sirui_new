@@ -146,5 +146,5 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     w: common_vendor.o((...args) => _ctx.stop && _ctx.stop(...args))
   });
 }
-const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-25a3c683"], ["__file", "D:/sirui_new_plus/sirui_new/components/player/player.vue"]]);
+const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-25a3c683"], ["__file", "E:/项目/西二外包/sirui_new/sirui_new/components/player/player.vue"]]);
 wx.createComponent(Component);

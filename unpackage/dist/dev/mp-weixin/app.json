@@ -23,7 +23,8 @@
     "pages/afterCutShare/afterCutShare",
     "pages/smallPlayer/smallPlayer",
     "pages/feedBack/feedBack",
-    "pages/aboutUs/aboutUs"
+    "pages/aboutUs/aboutUs",
+    "pages/highLight/highLight"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -68,6 +69,5 @@
       "desc": "获取定位"
     }
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "usingComponents": {}
 }
