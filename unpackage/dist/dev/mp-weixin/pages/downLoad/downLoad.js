@@ -110,7 +110,7 @@ const _sfc_main = {
   methods: {
     startDown() {
       this.isStart = true;
-      let fileName = new Date().valueOf();
+      let fileName = (/* @__PURE__ */ new Date()).valueOf();
       common_vendor.wx$1.env.USER_DATA_PATH + "/" + fileName + ".mp4";
       const downloadTask = common_vendor.index.downloadFile({
         url: this.item.url,
@@ -341,5 +341,5 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   };
 }
-const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "E:/项目/西二外包/sirui_new/sirui_new/pages/downLoad/downLoad.vue"]]);
+const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "D:/sirui_new_plus/sirui_new/pages/downLoad/downLoad.vue"]]);
 wx.createPage(MiniProgramPage);

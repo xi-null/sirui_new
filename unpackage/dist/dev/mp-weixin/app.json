@@ -1,73 +1,74 @@
 {
-  "pages": [
-    "pages/index/index",
-    "pages/vedio/vedio",
-    "pages/now/now",
-    "pages/person/person",
-    "pages/like/like",
-    "pages/history/history",
-    "pages/webView/webView",
-    "pages/pay/pay",
-    "pages/vedioDetail/vedioDetail",
-    "pages/vedioPlayer/vedioPlayer",
-    "pages/indexPlayer/indexPlayer",
-    "pages/control/control",
-    "pages/cutDetail/cutDetail",
-    "pages/cutShare/cutShare",
-    "pages/cutPlayer/cutPlayer",
-    "pages/downLoad/downLoad",
-    "pages/smallVedio/smallVedio",
-    "pages/payForExtend/payForExtend",
-    "pages/cutVideo/cutVideo",
-    "pages/refund/refund",
-    "pages/afterCutShare/afterCutShare",
-    "pages/smallPlayer/smallPlayer",
-    "pages/feedBack/feedBack",
-    "pages/aboutUs/aboutUs",
-    "pages/highLight/highLight"
-  ],
-  "window": {
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#FFF3F2",
-    "backgroundColor": "#FFF3F2"
-  },
-  "tabBar": {
-    "color": "#D9D9D9",
-    "selectedColor": "#FF7875",
-    "borderStyle": "black",
-    "backgroundColor": "#ffffff",
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "iconPath": "static/preVideo.png",
-        "selectedIconPath": "static/preVideo_select.png",
-        "text": "赛事回放"
-      },
-      {
-        "pagePath": "pages/now/now",
-        "iconPath": "static/order_page.png",
-        "selectedIconPath": "static/order_page_select.png",
-        "text": "服务"
-      },
-      {
-        "pagePath": "pages/vedio/vedio",
-        "iconPath": "static/video.png",
-        "selectedIconPath": "static/video_select.png",
-        "text": "实时赛事"
-      },
-      {
-        "pagePath": "pages/person/person",
-        "iconPath": "static/person.png",
-        "selectedIconPath": "static/person_select.png",
-        "text": "我的"
-      }
-    ]
-  },
-  "permission": {
-    "scope.userLocation": {
-      "desc": "获取定位"
-    }
-  },
-  "usingComponents": {}
+    "pages": [
+        "pages/index/index",
+        "pages/vedio/vedio",
+        "pages/now/now",
+        "pages/person/person",
+        "pages/like/like",
+        "pages/history/history",
+        "pages/webView/webView",
+        "pages/pay/pay",
+        "pages/vedioDetail/vedioDetail",
+        "pages/vedioPlayer/vedioPlayer",
+        "pages/indexPlayer/indexPlayer",
+        "pages/control/control",
+        "pages/cutDetail/cutDetail",
+        "pages/cutShare/cutShare",
+        "pages/cutPlayer/cutPlayer",
+        "pages/downLoad/downLoad",
+        "pages/smallVedio/smallVedio",
+        "pages/payForExtend/payForExtend",
+        "pages/cutVideo/cutVideo",
+        "pages/refund/refund",
+        "pages/afterCutShare/afterCutShare",
+        "pages/smallPlayer/smallPlayer",
+        "pages/feedBack/feedBack",
+        "pages/aboutUs/aboutUs",
+        "pages/highLight/highLight"
+    ],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#FFF3F2",
+        "backgroundColor": "#FFF3F2"
+    },
+    "tabBar": {
+        "color": "#D9D9D9",
+        "selectedColor": "#FF7875",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "static/preVideo.png",
+                "selectedIconPath": "static/preVideo_select.png",
+                "text": "赛事回放"
+            },
+            {
+                "pagePath": "pages/now/now",
+                "iconPath": "static/order_page.png",
+                "selectedIconPath": "static/order_page_select.png",
+                "text": "服务"
+            },
+            {
+                "pagePath": "pages/vedio/vedio",
+                "iconPath": "static/video.png",
+                "selectedIconPath": "static/video_select.png",
+                "text": "实时赛事"
+            },
+            {
+                "pagePath": "pages/person/person",
+                "iconPath": "static/person.png",
+                "selectedIconPath": "static/person_select.png",
+                "text": "我的"
+            }
+        ]
+    },
+    "permission": {
+        "scope.userLocation": {
+            "desc": "获取定位"
+        }
+    },
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
 }

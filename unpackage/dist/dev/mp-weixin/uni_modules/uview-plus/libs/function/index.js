@@ -168,7 +168,7 @@ if (!String.prototype.padStart) {
 function timeFormat(dateTime = null, formatStr = "yyyy-mm-dd") {
   let date;
   if (!dateTime) {
-    date = new Date();
+    date = /* @__PURE__ */ new Date();
   } else if (/^\d{10}$/.test(dateTime.toString().trim())) {
     date = new Date(dateTime * 1e3);
   } else if (typeof dateTime === "string" && /^\d+$/.test(dateTime.trim())) {
@@ -204,11 +204,11 @@ function timeFormat(dateTime = null, formatStr = "yyyy-mm-dd") {
 }
 function timeFrom(timestamp = null, format = "yyyy-mm-dd") {
   if (timestamp == null)
-    timestamp = Number(new Date());
+    timestamp = Number(/* @__PURE__ */ new Date());
   timestamp = parseInt(timestamp);
   if (timestamp.toString().length == 10)
     timestamp *= 1e3;
-  let timer = new Date().getTime() - timestamp;
+  let timer = (/* @__PURE__ */ new Date()).getTime() - timestamp;
   timer = parseInt(timer / 1e3);
   let tips = "";
   switch (true) {

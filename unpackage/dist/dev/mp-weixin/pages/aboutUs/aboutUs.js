@@ -16,5 +16,5 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     a: $data.src
   };
 }
-const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "E:/项目/西二外包/sirui_new/sirui_new/pages/aboutUs/aboutUs.vue"]]);
+const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "D:/sirui_new_plus/sirui_new/pages/aboutUs/aboutUs.vue"]]);
 wx.createPage(MiniProgramPage);
