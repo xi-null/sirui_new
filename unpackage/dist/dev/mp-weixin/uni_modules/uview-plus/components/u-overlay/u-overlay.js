@@ -136,5 +136,5 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   };
 }
-const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-9112bed9"], ["__file", "D:/sirui_new_plus/sirui_new/uni_modules/uview-plus/components/u-overlay/u-overlay.vue"]]);
+const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-9112bed9"], ["__file", "E:/项目/西二外包/sirui_new/sirui_new/uni_modules/uview-plus/components/u-overlay/u-overlay.vue"]]);
 wx.createComponent(Component);

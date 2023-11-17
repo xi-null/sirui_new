@@ -187,11 +187,7 @@ function normalizeLocale(locale, messages) {
     }
     return LOCALE_ZH_HANS;
   }
-  let locales = [LOCALE_EN, LOCALE_FR, LOCALE_ES];
-  if (messages && Object.keys(messages).length > 0) {
-    locales = Object.keys(messages);
-  }
-  const lang = startsWith(locale, locales);
+  const lang = startsWith(locale, [LOCALE_EN, LOCALE_FR, LOCALE_ES]);
   if (lang) {
     return lang;
   }
@@ -1259,8 +1255,8 @@ function populateParameters(fromRes, toRes) {
     appVersion: "1.0.0",
     appVersionCode: "100",
     appLanguage: getAppLanguage(hostLanguage),
-    uniCompileVersion: "3.8.7",
-    uniRuntimeVersion: "3.8.7",
+    uniCompileVersion: "3.7.3",
+    uniRuntimeVersion: "3.7.3",
     uniPlatform: "mp-weixin",
     deviceBrand,
     deviceModel: model,
@@ -1491,8 +1487,7 @@ const objectKeys = [
   "cloud",
   "serviceMarket",
   "router",
-  "worklet",
-  "__webpack_require_UNI_MP_PLUGIN__"
+  "worklet"
 ];
 const singlePageDisableKey = ["lanDebug", "router", "worklet"];
 const launchOption = wx.getLaunchOptionsSync ? wx.getLaunchOptionsSync() : null;
@@ -1509,7 +1504,7 @@ function initWx() {
       newWx[key] = wx[key];
     }
   }
-  if (typeof globalThis !== "undefined" && typeof requireMiniProgram === "undefined") {
+  if (typeof globalThis !== "undefined") {
     globalThis.wx = newWx;
   }
   return newWx;
@@ -1545,8 +1540,8 @@ const host = baseInfo ? baseInfo.host : null;
 const shareVideoMessage = host && host.env === "SAAASDK" ? wx$2.miniapp.shareVideoMessage : wx$2.shareVideoMessage;
 var shims = /* @__PURE__ */ Object.freeze({
   __proto__: null,
-  createSelectorQuery,
   getProvider,
+  createSelectorQuery,
   shareVideoMessage
 });
 const compressImage = {
@@ -1562,15 +1557,15 @@ const compressImage = {
 var protocols = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   compressImage,
-  getAppAuthorizeSetting,
-  getAppBaseInfo,
-  getDeviceInfo,
+  redirectTo,
+  previewImage,
   getSystemInfo,
   getSystemInfoSync,
+  showActionSheet,
+  getDeviceInfo,
+  getAppBaseInfo,
   getWindowInfo,
-  previewImage,
-  redirectTo,
-  showActionSheet
+  getAppAuthorizeSetting
 });
 const wx$1 = initWx();
 var index = initUni(shims, protocols, wx$1);
@@ -5889,7 +5884,7 @@ function createInvoker(initialValue, instance) {
     const eventValue = invoker.value;
     const invoke = () => callWithAsyncErrorHandling(patchStopImmediatePropagation(e2, eventValue), instance, 5, args);
     const eventTarget = e2.target;
-    const eventSync = eventTarget ? eventTarget.dataset ? String(eventTarget.dataset.eventsync) === "true" : false : false;
+    const eventSync = eventTarget ? eventTarget.dataset ? eventTarget.dataset.eventsync === "true" : false : false;
     if (bubbles.includes(e2.type) && !eventSync) {
       setTimeout(invoke);
     } else {
@@ -6291,19 +6286,6 @@ function initExtraOptions(miniProgramComponentOptions, vueOptions) {
     }
   });
 }
-const WORKLET_RE = /_(.*)_worklet_factory_/;
-function initWorkletMethods(mpMethods, vueMethods) {
-  if (vueMethods) {
-    Object.keys(vueMethods).forEach((name) => {
-      const matches = name.match(WORKLET_RE);
-      if (matches) {
-        const workletName = matches[1];
-        mpMethods[name] = vueMethods[name];
-        mpMethods[workletName] = vueMethods[workletName];
-      }
-    });
-  }
-}
 function initWxsCallMethods(methods, wxsCallMethods) {
   if (!isArray(wxsCallMethods)) {
     return;
@@ -6399,18 +6381,14 @@ function initDefaultProps(options, isBehavior = false) {
   }
   if (options.behaviors) {
     if (options.behaviors.includes("wx://form-field")) {
-      if (!options.properties || !options.properties.name) {
-        properties.name = {
-          type: null,
-          value: ""
-        };
-      }
-      if (!options.properties || !options.properties.value) {
-        properties.value = {
-          type: null,
-          value: ""
-        };
-      }
+      properties.name = {
+        type: null,
+        value: ""
+      };
+      properties.value = {
+        type: null,
+        value: ""
+      };
     }
   }
   return properties;
@@ -6597,7 +6575,6 @@ function parseComponent(vueOptions, { parse, mocks: mocks2, isPage: isPage2, ini
   vueOptions = vueOptions.default || vueOptions;
   const options = {
     multipleSlots: true,
-    // styleIsolation: 'apply-shared',
     addGlobalClass: true,
     pureDataPattern: /^uP$/
   };
@@ -6636,9 +6613,6 @@ function parseComponent(vueOptions, { parse, mocks: mocks2, isPage: isPage2, ini
   initPropsObserver(mpComponentOptions);
   initExtraOptions(mpComponentOptions, vueOptions);
   initWxsCallMethods(mpComponentOptions.methods, vueOptions.wxsCallMethods);
-  {
-    initWorkletMethods(mpComponentOptions.methods, vueOptions.methods);
-  }
   if (parse) {
     parse(mpComponentOptions, { handleLink: handleLink2 });
   }
@@ -6708,14 +6682,9 @@ const MPPage = Page;
 const MPComponent = Component;
 function initTriggerEvent(mpInstance) {
   const oldTriggerEvent = mpInstance.triggerEvent;
-  const newTriggerEvent = function(event, ...args) {
+  mpInstance.triggerEvent = function(event, ...args) {
     return oldTriggerEvent.apply(mpInstance, [customizeEvent(event), ...args]);
   };
-  try {
-    mpInstance.triggerEvent = newTriggerEvent;
-  } catch (error) {
-    mpInstance._triggerEvent = newTriggerEvent;
-  }
 }
 function initMiniProgramHook(name, options, isComponent) {
   const oldHook = options[name];
@@ -6810,11 +6779,11 @@ function handleLink(event) {
 }
 var parseOptions = /* @__PURE__ */ Object.freeze({
   __proto__: null,
-  handleLink,
-  initLifetimes,
-  initRelation,
+  mocks,
   isPage,
-  mocks
+  initRelation,
+  handleLink,
+  initLifetimes
 });
 const createApp = initCreateApp();
 const createPage = initCreatePage(parseOptions);
