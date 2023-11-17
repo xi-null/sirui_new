@@ -56,14 +56,13 @@ const _sfc_main = {
 };
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   return {
-    a: common_vendor.t($data.item.place),
-    b: common_vendor.t($data.item.date),
-    c: common_vendor.t($data.item.gameName),
+    a: common_vendor.t($data.item.gameName),
+    b: common_vendor.t(`${$data.item.date} ${$data.item.startTime}-${$data.item.endTime}`),
+    c: common_vendor.t($data.item.place),
     d: common_vendor.t($data.item.teamA),
-    e: common_vendor.t($data.item.teamB),
-    f: common_vendor.t(`${$data.item.startTime}-${$data.item.endTime ? $data.item.endTime : ""}`),
-    g: common_vendor.t($data.item.status),
-    h: common_vendor.o((...args) => $options.toDetail && $options.toDetail(...args))
+    e: common_vendor.t(`${$data.item.scoreBoard.scoreA} - ${$data.item.scoreBoard.scoreB}`),
+    f: common_vendor.t($data.item.teamB),
+    g: common_vendor.o((...args) => $options.toDetail && $options.toDetail(...args))
   };
 }
 const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-1f0e230b"], ["__file", "D:/sirui_new_plus/sirui_new/pages/vedioDetail/vedioDetail.vue"]]);

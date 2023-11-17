@@ -26,24 +26,19 @@
 .person_wra.data-v-23e4402d {
   width: 100vw;
   height: 100vh;
-  background-color: #181829FF;
-}
-.person_wra .top .bg .img.data-v-23e4402d {
-  width: 750rpx;
-  height: 234.27rpx;
+  background-color: #FFF;
 }
 .person_wra .top .user.data-v-23e4402d {
   width: 686rpx;
-  height: 192rpx;
-  background: #222232;
-  border-radius: 24rpx 24rpx 24rpx 24rpx;
+  height: 144rpx;
+  background: #FFCCC7;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
   opacity: 1;
-  position: absolute;
-  top: 146rpx;
-  left: 50%;
-  transform: translate(-50%);
   display: flex;
   align-items: center;
+  margin: auto;
+  position: relative;
+  top: 100rpx;
 }
 .person_wra .top .user .name.data-v-23e4402d {
   font-size: 28rpx;
@@ -67,8 +62,6 @@
 .person_wra .main.data-v-23e4402d {
   width: 689rpx;
   height: 650rpx;
-  background: #FFFFFF;
-  border-radius: 24rpx 24rpx 24rpx 24rpx;
   opacity: 1;
   margin: auto;
   margin-top: 125rpx;
@@ -77,10 +70,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 0.2rpx solid #181829FF;
-  width: 622rpx;
-  height: 105rpx;
+  width: 686rpx;
+  height: 92rpx;
   margin: auto;
+  box-shadow: 8rpx 8rpx 8rpx 0rpx rgba(0, 0, 0, 0.04);
+  margin-top: 30rpx;
 }
 .person_wra .main .item .left.data-v-23e4402d {
   display: flex;
@@ -97,10 +91,4 @@
 }
 .person_wra .main .item .left .icon.data-v-23e4402d {
   margin-left: 32rpx;
-}
-.person_wra .main .item .line.data-v-23e4402d {
-  width: 614rpx;
-  height: 20rpx;
-  opacity: 1;
-  background-color: #181829FF;
 }

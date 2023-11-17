@@ -26,7 +26,7 @@
 				// 	pageNum: 1,
 				// 	pageSize: 5
 				// },
-				src:`https://h5-1259813764.cos.ap-nanjing.myqcloud.com/video_3.html?userId=${uni.getStorageSync('user').id}`,
+				src:`https://h5-1259813764.cos.ap-nanjing.myqcloud.com/video_new1.html?userId=${uni.getStorageSync('user').id}`,
 				// src:`http://42.192.151.166:8082/sirui/video_1.html?userId=${uni.getStorageSync('user').id}`
 			}
 		},
@@ -45,7 +45,7 @@
 						 userId:uni.getStorageSync('user').id,
 						 orderId
 					 }
-					 this.src = `https://h5-1259813764.cos.ap-nanjing.myqcloud.com/video_3.html?query=${encodeURIComponent(JSON.stringify(obj))}`
+					 this.src = `https://h5-1259813764.cos.ap-nanjing.myqcloud.com/video_new1.html?query=${encodeURIComponent(JSON.stringify(obj))}`
 					 console.log(this.src,11)
 			
 

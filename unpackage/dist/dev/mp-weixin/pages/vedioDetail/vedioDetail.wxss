@@ -26,7 +26,7 @@
 .wra.data-v-1f0e230b {
   width: 100vw;
   height: 100vh;
-  background-color: #181829FF;
+  background-color: #FFF;
 }
 .wra .btn.data-v-1f0e230b {
   height: 44rpx;
@@ -42,110 +42,70 @@
   font-size: 32rpx;
   font-family: Inter-Regular, Inter;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #FF7875;
   line-height: 44rpx;
   -webkit-background-clip: text;
 }
 .wra .item.data-v-1f0e230b {
-  margin-left: 24rpx;
-  width: 702rpx;
-  height: 418rpx;
-  background: #3B3B47;
-  border-radius: 16rpx 16rpx 16rpx 16rpx;
-  opacity: 1;
-  border-left: 8rpx solid #584EF8;
-  overflow: hidden;
-}
-.wra .item .first.data-v-1f0e230b {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 32rpx;
-}
-.wra .item .first .place.data-v-1f0e230b {
-  display: flex;
-  align-items: center;
-  margin-left: 32rpx;
-}
-.wra .item .first .place .projectName.data-v-1f0e230b {
-  font-size: 28rpx;
-  font-family: Source Han Sans CN-Regular, Source Han Sans CN;
-  font-weight: 400;
-  color: #FFFFFF;
-  height: 28rpx;
-  line-height: 28rpx;
-  -webkit-background-clip: text;
-}
-.wra .item .first .time.data-v-1f0e230b {
-  margin-right: 32rpx;
-  height: 28rpx;
-  font-size: 28rpx;
-  font-family: Source Han Sans CN-Regular, Source Han Sans CN;
-  font-weight: 400;
-  color: #D7D7D7;
-  line-height: 28rpx;
-  -webkit-background-clip: text;
-}
-.wra .item .center.data-v-1f0e230b {
-  display: flex;
-  justify-content: center;
-  margin-top: 46rpx;
-  height: 36rpx;
-  font-size: 36rpx;
-  font-family: Source Han Sans CN-Bold, Source Han Sans CN;
-  font-weight: bold;
-  color: #FFFFFF;
-  line-height: 36rpx;
-  -webkit-background-clip: text;
-}
-.wra .item .team.data-v-1f0e230b {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 40rpx;
-}
-.wra .item .team .teamName.data-v-1f0e230b {
-  height: 36rpx;
-  font-size: 36rpx;
-  font-family: Source Han Sans CN-Regular, Source Han Sans CN;
-  font-weight: 400;
-  color: #FFFFFF;
-  line-height: 32rpx;
-  -webkit-background-clip: text;
-}
-.wra .item .team .vs.data-v-1f0e230b {
-  height: 36rpx;
-  font-size: 36rpx;
-  font-family: DingTalk JinBuTi-Regular, DingTalk JinBuTi;
-  font-weight: 400;
-  color: #FFFFFF;
-  line-height: 32rpx;
-  -webkit-background-clip: text;
-}
-.wra .item .detailTime.data-v-1f0e230b {
-  height: 28rpx;
-  font-size: 28rpx;
-  font-family: Source Han Sans CN-Regular, Source Han Sans CN;
-  font-weight: 400;
-  color: #D7D7D7;
-  line-height: 28rpx;
-  display: flex;
-  justify-content: center;
-  margin-top: 40rpx;
-}
-.wra .item .status.data-v-1f0e230b {
-  display: flex;
-  justify-content: center;
+  width: 95vw;
   margin: auto;
-  margin-top: 36rpx;
-  width: 170rpx;
-  height: 40rpx;
-  font-size: 38rpx;
-  font-family: DingTalk JinBuTi-Regular, DingTalk JinBuTi;
-  font-weight: 400;
-  color: #FFFFFF;
-  line-height: 32rpx;
-  text-shadow: 0px 2px 2px rgba(205, 205, 205, 0.25);
-  -webkit-background-clip: text;
-  background: linear-gradient(#3B3B47FF, #584EF8FF);
+  margin-top: 5rpx;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 2px 4px #F9F9F9;
+  min-height: 10vh;
+}
+.wra .item .new_left.data-v-1f0e230b {
+  width: 50%;
+}
+.wra .item .new_left .new_left_gameName.data-v-1f0e230b {
+  overflow: hidden;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.wra .new_left_date.data-v-1f0e230b {
+  display: flex;
+  margin-top: 5px;
+  color: #989898;
+  font-size: 10px;
+}
+.wra .new_left_date .new_left_date_span.data-v-1f0e230b {
+  margin-left: 2px;
+}
+.wra .new_location.data-v-1f0e230b {
+  margin-left: 2px;
+}
+.wra .right_new_top_right.data-v-1f0e230b {
+  display: flex;
+}
+.wra .team.data-v-1f0e230b {
+  position: relative;
+  top: -11px;
+  width: 65px;
+}
+.wra .teamName.data-v-1f0e230b {
+  width: 55px;
+  display: flex;
+  justify-content: center;
+}
+.wra .title.data-v-1f0e230b {
+  color: #989898 !important;
+  font-size: 8px;
+  /* margin-left: 8px; */
+  display: flex;
+  justify-content: center;
+}
+.wra .teamName_inner.data-v-1f0e230b {
+  max-width: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.wra .score_new.data-v-1f0e230b {
+  color: #FF7875;
+  position: relative;
+  left: -5px;
 }

@@ -1,9 +1,6 @@
 <template>
 	<view class="person_wra">
 		<view class="top">
-			<view class="bg">
-				<img src="../static/person_bg.png"  alt="" class="img">
-			</view>
 			<view class="user">
 				<view class="avatar">
 					<img src="../static/person_user.png" alt="" style="width: 24px;height: 24px;">
@@ -14,10 +11,10 @@
 		<view class="main">
 			<view class="item" v-for="(item,key) in tabBar" @click="change(item.url)">
 				<view class="left">
-					<view class="icon"><img :src="item.icon" alt="" style="width: 20px;height: 20px;"></view>
+					<view class="icon"><img :src="item.icon" alt="" style="width: 40rpx;height: 40rpx;"></view>
 					<view class="tab">{{item.title}}</view>
 				</view>
-				<view class="right"><img src="../static/person_right.png" alt="" style="width: 36rpx;height: 36rpx;"></view>
+				<view class="right"><img src="../static/person_right.png" alt="" style="width: 24rpx;height: 24rpx;"></view>
 				
 			</view>
 			
@@ -94,32 +91,21 @@
 	.person_wra{
 		width: 100vw;
 		height: 100vh;
-		background-color: #181829FF;
+		background-color: #FFF;
 		
 		.top{
-		
-			
-			.bg {
-				.img{
-					width: 750rpx;
-					height:234.27rpx
-				}
-			}
 			.user{
 				width: 686rpx;
-				height: 192rpx;
-				background: #222232;
-				border-radius: 24rpx 24rpx 24rpx 24rpx;
+				height: 144rpx;
+				background: #FFCCC7;
+				border-radius: 20rpx 20rpx 20rpx 20rpx;
 				opacity: 1;
 				
-				position: absolute;
-				top: 146rpx;
-				left: 50%;
-				transform: translate(-50%);
 				display: flex;
 				align-items: center;
-				
-				
+				margin: auto;
+				position: relative;
+				top: 100rpx;
 				.name{
 					
 					font-size: 28rpx;
@@ -147,8 +133,6 @@
 		.main{
 		width: 689rpx;
 		height: 650rpx;
-		background: #FFFFFF;
-		border-radius: 24rpx 24rpx 24rpx 24rpx;
 		opacity: 1;
 		margin: auto;
 			margin-top: 125rpx;
@@ -157,12 +141,11 @@
 				display: flex;
 				align-items: center;
 				justify-content: space-between;
-				border-bottom: 0.2rpx solid #181829FF;
-				width: 622rpx;
-				height: 105rpx;
+				width: 686rpx;
+				height: 92rpx;
 				margin: auto;
-			
-				
+				box-shadow: 8rpx 8rpx 8rpx 0rpx rgba(0,0,0,0.04);
+				margin-top: 30rpx;
 				.left{
 					display: flex;
 					align-items: center;
@@ -178,13 +161,6 @@
 					.icon{
 						margin-left: 32rpx;
 					}
-				}
-				.line{
-					width: 614rpx;
-					height: 20rpx;
-					opacity: 1;
-					background-color: #181829FF;
-					
 				}
 			}
 		}

@@ -68,6 +68,5 @@
       "desc": "获取定位"
     }
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "usingComponents": {}
 }
