@@ -7,8 +7,8 @@ const _sfc_main = {
     };
   },
   onLoad(option) {
-    console.log(option);
-    this.src = `https://h5-1259813764.cos.ap-nanjing.myqcloud.com/cutDetail_2.html?orderId=${option.orderId}&userId=${option.userId}`;
+    console.log("option", option);
+    this.src = `https://h5-1259813764.cos.ap-nanjing.myqcloud.com/new/replay_new_1.html?orderId=${option.orderId}&userId=${option.userId}`;
     console.log(this.src);
   },
   methods: {}
@@ -18,5 +18,5 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     a: $data.src
   };
 }
-const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "D:/sirui_new_plus/sirui_new/pages/cutDetail/cutDetail.vue"]]);
+const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "E:/项目/西二外包/sirui_new/sirui_new/pages/cutDetail/cutDetail.vue"]]);
 wx.createPage(MiniProgramPage);

@@ -22,7 +22,7 @@ const _sfc_main = {
       projectId: common_vendor.index.getStorageSync("project").id,
       userId: common_vendor.index.getStorageSync("user").id
     };
-    this.src = `https://h5-1259813764.cos.ap-nanjing.myqcloud.com/order_3.html?query=${encodeURIComponent(JSON.stringify(obj))}`;
+    this.src = `https://h5-1259813764.cos.ap-nanjing.myqcloud.com/new/order_new_1.html?query=${encodeURIComponent(JSON.stringify(obj))}`;
     console.log(this.src, 11);
   },
   methods: {
@@ -122,6 +122,6 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     c: common_vendor.o((...args) => _ctx.message && _ctx.message(...args))
   };
 }
-const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-b2d018fa"], ["__file", "D:/sirui_new_plus/sirui_new/pages/history/history.vue"]]);
+const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-b2d018fa"], ["__file", "E:/项目/西二外包/sirui_new/sirui_new/pages/history/history.vue"]]);
 _sfc_main.__runtimeHooks = 2;
 wx.createPage(MiniProgramPage);

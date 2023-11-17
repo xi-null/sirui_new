@@ -224,7 +224,14 @@
                 "enablePullDownRefresh": false
             }
             
-        }
+        },{
+			"path": "pages/highLight/highLight",
+			"style" :
+			{
+			    "navigationBarTitleText": "",
+			    "enablePullDownRefresh": false
+			}
+		}
     ],
 	"permission": {
 		"scope.userLocation": {
