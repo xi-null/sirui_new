@@ -1,1 +1,1 @@
-<view class="wra"><u-popup wx:if="{{b}}" u-s="{{['d']}}" u-i="517b36c3-0" bind:__l="__l" u-p="{{b}}"><view class="progress"></view><u-line-progress wx:if="{{a}}" u-i="517b36c3-1,517b36c3-0" bind:__l="__l" u-p="{{a}}"></u-line-progress></u-popup></view>
+<view class="wra"><u-popup wx:if="{{b}}" u-s="{{['d']}}" u-i="06dacfba-0" bind:__l="__l" u-p="{{b}}"><view class="progress"></view><u-line-progress wx:if="{{a}}" u-i="06dacfba-1,06dacfba-0" bind:__l="__l" u-p="{{a}}"></u-line-progress></u-popup></view>

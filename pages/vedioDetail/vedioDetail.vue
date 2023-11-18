@@ -1,7 +1,7 @@
 <template>
 	<view class="wra" @click=toDetail>
 	<view class="btn" >
-		<view class="icon"><img src="../../static/share_new.png" alt="" style="width: 24px;height: 24px;"></view>
+		<view class="icon"><img src="../../static/share_new.svg" alt="" style="width: 24px;height: 24px;"></view>
 		<view class="messgae">点击观看本场比赛视频</view>
 	</view>
 	<view class="item">

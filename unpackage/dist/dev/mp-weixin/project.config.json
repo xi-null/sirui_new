@@ -1,5 +1,5 @@
 {
-    "appid": "touristappid",
+    "appid": "wx129a87c8f2c167ee",
     "compileType": "miniprogram",
     "libVersion": "3.1.1",
     "packOptions": {
@@ -18,8 +18,9 @@
             "ignore": [],
             "disablePlugins": [],
             "outputPath": ""
-<<<<<<< HEAD
         },
+        "ignoreUploadUnusedFiles": true,
+        "ignoreDevUnusedFiles": false,
         "urlCheck": false,
         "lazyloadPlaceholderEnable": false,
         "preloadBackgroundData": false,
@@ -33,14 +34,13 @@
         "showES6CompileOption": false,
         "checkInvalidKey": true,
         "disableUseStrict": false,
-        "useCompilerPlugins": false
-=======
-        }
->>>>>>> bc7382b2c519df0039e8fcc392d1b707ba08faa0
+        "useCompilerPlugins": false,
+        "minifyWXML": true
     },
     "condition": {},
     "editorSetting": {
         "tabIndent": "insertSpaces",
         "tabSize": 4
-    }
+    },
+    "description": "项目配置文件，详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html"
 }

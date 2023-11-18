@@ -69,5 +69,6 @@
       "desc": "获取定位"
     }
   },
+  "lazyCodeLoading": "requiredComponents",
   "usingComponents": {}
 }

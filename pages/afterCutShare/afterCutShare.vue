@@ -1,7 +1,7 @@
 <template>
 <view class="wra" @click="toDetail">
 <view class="btn">
-	<view class="icon"><img src="../../static/share_new.png" alt="" style="width: 24px;height: 24px;"></view>
+	<view class="icon"><img src="../../static/share_new.svg" alt="" style="width: 24px;height: 24px;"></view>
 	<view class="messgae">点击观看本场比赛视频</view>
 </view>
 <view class="item">
@@ -89,7 +89,7 @@
 	.wra{
 		width: 100vw;
 		height: 100vh;
-		background-color: #181829FF;
+		background-color: #fFF;
 		.btn{
 			
 			height: 44rpx;
@@ -117,7 +117,7 @@
 			margin-left: 24rpx;
 			width: 702rpx;
 			height: 345rpx;
-			background: #3B3B47;
+			background: #fff;
 			box-shadow:2px 2px 4px #F9F9F9;
 			opacity: 1;
 			overflow: hidden;

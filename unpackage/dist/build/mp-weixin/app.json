@@ -1,4 +1,5 @@
 {
+"lazyCodeLoading" : "requiredComponents",
   "pages": [
     "pages/index/index",
     "pages/vedio/vedio",
@@ -23,7 +24,8 @@
     "pages/afterCutShare/afterCutShare",
     "pages/smallPlayer/smallPlayer",
     "pages/feedBack/feedBack",
-    "pages/aboutUs/aboutUs"
+    "pages/aboutUs/aboutUs",
+	  "pages/highLight/highLight"
   ],
   "window": {
     "navigationBarTextStyle": "white",

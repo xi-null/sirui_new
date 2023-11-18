@@ -26,7 +26,7 @@
 .wra.data-v-a85c6812 {
   width: 100vw;
   height: 100vh;
-  background-color: #181829FF;
+  background-color: #fFF;
 }
 .wra .btn.data-v-a85c6812 {
   height: 44rpx;
@@ -50,7 +50,7 @@
   margin-left: 24rpx;
   width: 702rpx;
   height: 345rpx;
-  background: #3B3B47;
+  background: #fff;
   box-shadow: 2px 2px 4px #F9F9F9;
   opacity: 1;
   overflow: hidden;

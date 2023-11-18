@@ -62,7 +62,8 @@
             "scope.userLocation" : {
                 "desc" : "获取定位"
             }
-        }
+        },
+		"lazyCodeLoading": "requiredComponents"
     },
     "mp-alipay" : {
         "usingComponents" : true
