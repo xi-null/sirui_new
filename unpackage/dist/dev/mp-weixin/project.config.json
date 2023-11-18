@@ -32,8 +32,7 @@
         "showES6CompileOption": false,
         "checkInvalidKey": true,
         "disableUseStrict": false,
-        "useCompilerPlugins": false,
-        "minifyWXML": true
+        "useCompilerPlugins": false
     },
     "condition": {},
     "editorSetting": {

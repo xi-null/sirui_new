@@ -1,7 +1,7 @@
 <template>
 <view class="wra" @click=toDetail>
 <view class="btn" >
-	<view class="icon"><img src="../../static/share.png" alt="" style="width: 24px;height: 24px;"></view>
+	<view class="icon"><img src="../../static/share_new.png" alt="" style="width: 24px;height: 24px;"></view>
 	<view class="messgae">点击观看本场比赛视频</view>
 </view>
 <view class="item">
@@ -95,7 +95,7 @@
 	.wra{
 		width: 100vw;
 		height: 100vh;
-		background-color: #181829FF;
+		background-color: #ffF;
 		overflow: hidden;
 		
 		.btn{
@@ -113,7 +113,7 @@
 				font-size: 32rpx;
 				font-family: Inter-Regular, Inter;
 				font-weight: 400;
-				color: #FFFFFF;
+				color: #FF7875;
 				line-height: 44rpx;
 				-webkit-background-clip: text;
 			}
@@ -125,10 +125,9 @@
 			margin-left: 24rpx;
 			width: 702rpx;
 			height: 345rpx;
-			background: #3B3B47;
-			border-radius: 16rpx 16rpx 16rpx 16rpx;
+			background: #fff;
+		box-shadow:2px 2px 4px #F9F9F9;
 			opacity: 1;
-			border-left: 8rpx solid #584EF8;
 			overflow: hidden;
 			.first{
 					display: flex;
@@ -143,7 +142,7 @@
 						font-size: 28rpx;
 						font-family: Source Han Sans CN-Regular, Source Han Sans CN;
 						font-weight: 400;
-						color: #FFFFFF;
+						color: #000;
 						height: 28rpx;
 						line-height: 28rpx;
 						-webkit-background-clip: text;
@@ -155,7 +154,7 @@
 					font-size: 28rpx;
 					font-family: Source Han Sans CN-Regular, Source Han Sans CN;
 					font-weight: 400;
-					color: #D7D7D7;
+					color: #000;
 					line-height: 28rpx;
 					-webkit-background-clip: text;
 				}
@@ -169,7 +168,7 @@
 				font-size: 36rpx;
 				font-family: Source Han Sans CN-Bold, Source Han Sans CN;
 				font-weight: bold;
-				color: #FFFFFF;
+				color: #000;
 				line-height: 36rpx;
 				-webkit-background-clip: text;
 			}
@@ -183,7 +182,7 @@
 					font-size: 36rpx;
 					font-family: Source Han Sans CN-Bold, Source Han Sans CN;
 					font-weight: bold;
-					color: #FFFFFF;
+				color: #000;
 					line-height: 36rpx;
 					-webkit-background-clip: text;
 				}
@@ -192,7 +191,7 @@
 					font-size: 28rpx;
 					font-family: Source Han Sans CN-Regular, Source Han Sans CN;
 					font-weight: 400;
-					color: #FFFFFF;
+					color: #000;
 					line-height: 28rpx;
 					-webkit-background-clip: text;
 					margin-bottom: 32rpx;
