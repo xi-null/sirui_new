@@ -18,7 +18,8 @@
 					 userId:uni.getStorageSync('user').id
 				 }
 				 //线上是afterCut2
-				 this.src = `https://h5-1259813764.cos.ap-nanjing.myqcloud.com/afterCut_2.html?query=${encodeURIComponent(JSON.stringify(obj))}`
+				 // this.src = `https://h5-1259813764.cos.ap-nanjing.myqcloud.com/afterCut_2.html?query=${encodeURIComponent(JSON.stringify(obj))}`
+				 this.src = `https://h5-1259813764.cos.ap-nanjing.myqcloud.com/new/afterCut_new_1.html?query=${encodeURIComponent(JSON.stringify(obj))}`
 				 console.log(this.src,11)
 		
 				 

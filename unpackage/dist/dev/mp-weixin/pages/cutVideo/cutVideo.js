@@ -11,7 +11,7 @@ const _sfc_main = {
       projectId: common_vendor.index.getStorageSync("project").id,
       userId: common_vendor.index.getStorageSync("user").id
     };
-    this.src = `https://h5-1259813764.cos.ap-nanjing.myqcloud.com/afterCut_2.html?query=${encodeURIComponent(JSON.stringify(obj))}`;
+    this.src = `https://h5-1259813764.cos.ap-nanjing.myqcloud.com/new/afterCut_new_1.html?query=${encodeURIComponent(JSON.stringify(obj))}`;
     console.log(this.src, 11);
   },
   methods: {}
