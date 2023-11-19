@@ -26,7 +26,7 @@
 		              </view>
 		              <view class="vs_box">
 		                <view class="vs">vs</view>
-		                <view class="score_new">{{`${item.scoreBoard.scoreA} - ${item.scoreBoard.scoreB}`}}</view>
+		                <view class="score_new">{{`${item.scoreA} - ${item.scoreB}`}}</view>
 		              </view>
 		              <view class="team">
 		                <view class="title">客队</view>
@@ -53,7 +53,7 @@
 		onLoad(option){
 			console.log(option.list)
 			this.item = JSON.parse(decodeURIComponent(option.list))
-			console.log(this.item)
+			console.log('111',this.item)
 			
 			if(Reflect.has(this.item,'endTime')){
 				const startTime = Date.parse(this.item.date+' '+this.item.startTime)

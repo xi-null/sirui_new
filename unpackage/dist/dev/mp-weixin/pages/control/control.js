@@ -9,10 +9,10 @@ const _sfc_main = {
   onLoad(option2) {
     console.log(option2);
     if (option2.overlay == "2") {
-      this.src = `https://h5-1259813764.cos.ap-nanjing.myqcloud.com/bgBs_2.html?orderId=${option2.orderId}`;
+      this.src = `https://h5-1259813764.cos.ap-nanjing.myqcloud.com/new/bgBs_new_1.html?orderId=${option2.orderId}`;
       return;
     }
-    this.src = `https://h5-1259813764.cos.ap-nanjing.myqcloud.com/bg_1.html?orderId=${option2.orderId}`;
+    this.src = `https://h5-1259813764.cos.ap-nanjing.myqcloud.com/new/bg_new_1.html?orderId=${option2.orderId}`;
   },
   onShareAppMessage(res) {
     return {

@@ -12,7 +12,7 @@ const _sfc_main = {
   onLoad(option) {
     console.log(option.list);
     this.item = JSON.parse(decodeURIComponent(option.list));
-    console.log(this.item);
+    console.log("111", this.item);
     if (Reflect.has(this.item, "endTime")) {
       const startTime = Date.parse(this.item.date + " " + this.item.startTime);
       const endTime = Date.parse(this.item.date + " " + this.item.endTime);
@@ -60,7 +60,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     b: common_vendor.t(`${$data.item.date} ${$data.item.startTime}-${$data.item.endTime}`),
     c: common_vendor.t($data.item.place),
     d: common_vendor.t($data.item.teamA),
-    e: common_vendor.t(`${$data.item.scoreBoard.scoreA} - ${$data.item.scoreBoard.scoreB}`),
+    e: common_vendor.t(`${$data.item.scoreA} - ${$data.item.scoreB}`),
     f: common_vendor.t($data.item.teamB),
     g: common_vendor.o((...args) => $options.toDetail && $options.toDetail(...args))
   };

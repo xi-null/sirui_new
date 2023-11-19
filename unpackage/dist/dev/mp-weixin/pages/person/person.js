@@ -28,7 +28,7 @@ const _sfc_main = {
         {
           title: "反馈问题",
           url: "/pages/feedBack/feedBack",
-          icon: "../../static/person_feedBack.png"
+          icon: "../../static/person_feedback.svg"
         },
         {
           title: "联系我们",
